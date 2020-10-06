@@ -10,12 +10,14 @@
 
 Если у вас не активировалось виртуальное окружение выполните:
 
-```sourse env/bin/acrtivate
+```bash
+sourse env/bin/acrtivate
 ```
 
 Перейти в дирректорию `src` и выполняем миграции:
 
-```python manage.py migrate
+```bash
+python manage.py migrate
 ```
 
 Вот и все!
